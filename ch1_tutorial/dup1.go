@@ -2,8 +2,8 @@ package main
 
 import (
 	"bufio"
-	"os"
 	"fmt"
+	"os"
 )
 
 // Dup1 print the text of each line that appears more than

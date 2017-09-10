@@ -1,9 +1,9 @@
 package main
 
 import (
-	"os"
-	"fmt"
 	"bufio"
+	"fmt"
+	"os"
 )
 
 // Dup2 prints the count and text of lines that appear more than
@@ -38,4 +38,3 @@ func countLines(f *os.File, counts map[string]int) {
 		counts[input.Text()]++
 	}
 }
-

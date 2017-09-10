@@ -5,11 +5,11 @@ import (
 	"os"
 )
 
-func main(){
+func main() {
 
-	var argsString , separator string
+	var argsString, separator string
 	separator = " "
-	for i := 1; i < len(os.Args) ; i++  {
+	for i := 1; i < len(os.Args); i++ {
 		argsString += separator + os.Args[i]
 	}
 	fmt.Println(argsString)
